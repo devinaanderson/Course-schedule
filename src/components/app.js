@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import Library from './library/library'
+import Schedule from './schedule/schedule'
+
 
  class App extends Component {
   render() {
     return (
       <div className='app'>
-        <h1>Course Scheduler</h1>
-        <h2>React Redux</h2>
+        <Library/>
+        <Schedule/>
       </div>
     );
   }
