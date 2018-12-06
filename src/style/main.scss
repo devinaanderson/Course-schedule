@@ -1,8 +1,9 @@
 @import 'variables';
 @import 'library';
 @import 'libraryCourse';
-
-
+@import 'arrow.scss';
+@import 'schedule.scss';
+@import 'progressTracker.scss';
 .app {
     height: 100vh;
     width: 100vw;
